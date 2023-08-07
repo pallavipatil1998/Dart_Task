@@ -4,7 +4,7 @@ import 'dart:math';
 void main(){
   print('Enter First Nth Term: ');
   int term=getIntValue();
-  int num=0;
+  int num=1;
 
   List<int> ArmStrongList=[];
   while(ArmStrongList.length<term){
